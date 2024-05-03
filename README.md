@@ -1,5 +1,4 @@
 # aws-cdc-credit-card-disputed-transactions
-# Credit Card Disputed Transactions ETL Pipeline
 
 ## Overview:
 
