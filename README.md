@@ -4,7 +4,7 @@
 ## Overview:
 
 One of the major factors for credit card businesses is managing disputed transactions. This project presents an ETL pipeline designed to perform analytics and store real-time updates on transactions while capturing any changes in DynamoDB.
-![alt text]([https://github.com/mihirajgaonkar/aws-cdc-credit-card-data/blob/main/aws%20architecture.png])
+![alt text](https://github.com/mihirajgaonkar/aws-cdc-credit-card-data/blob/main/aws%20architecture.png)
 
 ## Services Used:
 
