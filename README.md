@@ -40,3 +40,4 @@ One of the major factors for credit card businesses is managing disputed transac
    - Instead of using sessions to connect to DynamoDB, use access keys and secret access keys for enhanced security.
    - Utilize VPC and deploy resources within it.
    - Create IAM roles and provide the respective policies instead of using the Root user and attaching Full access policies for resources. This will enhance security and facilitate error troubleshooting.
+   - Utilize cross join in Athena for uncertain schema or parsing arrays in dynamodb/NoSQL data
