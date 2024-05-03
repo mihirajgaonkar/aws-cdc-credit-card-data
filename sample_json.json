@@ -1,0 +1,39 @@
+{
+    "eventID": "6eec589b8e3e8ffe9f2c27d0c6e4d229",
+    "eventName": "INSERT",
+    "eventVersion": "1.1",
+    "eventSource": "aws:dynamodb",
+    "awsRegion": "us-east-1",
+    "dynamodb": {
+        "ApproximateCreationDateTime": 1714655462,
+        "Keys": {
+            "transaction_id": {
+                "S": "3434"
+            }
+        },
+        "NewImage": {
+            "transaction_id": {
+                "S": "3434"
+            },
+            "amount": {
+                "N": "2287.76"
+            },
+            "user_id": {
+                "S": "728"
+            },
+            "business_type": {
+                "S": "Grocery"
+            },
+            "location": {
+                "S": "PA"
+            },
+            "status": {
+                "S": "processing"
+            }
+        },
+        "SequenceNumber": "8808400000000086303622650",
+        "SizeBytes": 102,
+        "StreamViewType": "NEW_IMAGE"
+    },
+    "eventSourceARN": "arn:aws:dynamodb:us-east-1:767397958345:table/cdcCreditCardRaw/stream/2024-04-30T15:47:43.735"
+}
