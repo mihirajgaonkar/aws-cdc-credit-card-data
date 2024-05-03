@@ -35,7 +35,6 @@ One of the major factors for credit card businesses is managing disputed transac
 
 ## Future Improvements:
 
-1. **S3 Buckets for Error Logging:**
    - Create S3 buckets for error logging.
    - Based on business use case, create separate buckets for disputed transactions and all transactions.This will reduce query costs through Athena, especially if we only need to perform analytics on disputed transactions.
    - Instead of using sessions to connect to DynamoDB, use access keys and secret access keys for enhanced security.
